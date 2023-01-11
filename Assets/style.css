@@ -1,0 +1,64 @@
+
+/* Universal Selector */
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Element Selector */
+header {
+    background-color: darkgreen;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+li {
+    color: white;
+    display: inline;
+    font-weight: bold;
+}
+
+main{
+    margin-top: 100px;
+}
+
+section {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: darkgreen;
+}    
+
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 1.25rem;
+}
+
+/* Class Selectors */
+.nav-bar {
+    position: relative;
+    text-align: right;
+    width: 100%;
+}
+
+/* ID Selectors */
+#contact-me{
+    background-color: chocolate;
+    border:  5px solid brown;
+    padding: 5%;
+}
+
+
+#users {
+    border:  5px solid brown;
+    margin: auto;
+    padding: 10px;
+    width: 40%;
+}
+
